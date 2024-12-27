@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+    /* Debug */
+    /background-color: rgba(0,0,0,.2);/
+}
+
+#logo img{
+    height:65px;
+    width:55px;
+    margin:13px 15px;
+    border-radius:20px;
+}
+
+.navi {
+    display:flex;
+}
+
+.navi ul{
+    display:flex;
+}
+
+.navi ul li{
+    list-style:none;
+    margin:15px 0px;
+    font-size:1.1rem;
+}
+
+.navi ul li a{
+    text-decoration:none;
+    display:block;
+    padding:10px 10px;
+    border-radius:20px;
+    color:white;
+    font-family: 'Lobster', cursive;
+}
+
+.navi ul li a:hover{
+    background-color:brown;
+    display:block;
+}
+
+#back{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:35px 0px;
+    padding:10px 10px;
+    
+}
+
+#back p{
+    position:relative;
+    color:blueviolet;
+    width:100%;
+    margin:auto;
+    margin:10px 0px;
+    text-align:center;
+    font-size:25px;
+    font-family: 'Playfair Display', serif;
+    font-weight:bold;
+}
+
+#btn{
+    margin:8px;
+    padding:7px 15px;
+    color:brown;  
+    border-radius:20px;
+    cursor:pointer ;
+    font-size:1rem;
+    font-weight:bold  ;
+    font-style:italic ;
+}
+
+#btn:hover{
+    color:blue;
+    background-color:black;
+}
+
+#back::before{
+   content:"";
+   position:absolute; background:url(https://i.postimg.cc/m2NBy0m8/28514646-sports-clothing.jpg) no-repeat center center/cover;
+    width:100vw;
+    height:55vh;
+    top:0;
+    left:0;
+    z-index:-1;
+    opacity:1;
+}
+
+.head{
+    font-family: 'Lobster', cursive;
+    color:white;
+    font-size:1.8rem;
+}
+
+
+#facility{
+    margin:30px 0px;
+    background-color:lightsteelblue;
+    /height:165vh;/
+    display:block;
+    width:100vw;
+    padding: 1rem 0;
+}
+
+#facility #head2{
+    font-size:2rem;
+    display:block;
+    width:100vw;
+    margin:0px 70px;
+    font-style:italic ;
+    font-family: 'Lobster', cursive;
+    padding:15px;
+    text-decoration:underline ;
+}
+
+#faci  .box h3{
+    display:block;
+    /*due to this extra gaps created */
+    /* width:100%; */ 
+    text-align: center; /* added */
+    margin:10px 22%;
+    font-size:1.5rem;
+}
+
+#faci .box{
+    border:2px solid red;
+    background-color:mediumpurple;
+    border-radius:50px;
+    /*height:35vh; */
+    /don't give fixed height/
+    
+    width: 50vw; 
+    /* you can increase width too */
+    width: 75%;
+    display:block ;
+    margin:15px auto;
+    background-color: yellow;
+    
+    /* padding gives space from inside of div */
+    padding: 10px;
+}
+#faci .box img{
+    width:35vw;
+    height:15vh;
+    display:block;
+    margin:auto;
+    border-radius:20px;
+}
+
+#faci .box #cricpara{
+    font-size:1.2rem;
+    text-align:center;
+    font-family: 'Lobster', cursive;
+}
+
+
+#faci  .box #head4{
+    display:block;
+    width:100%;
+    margin: 10px auto;
+    font-size:1.5rem;
+    text-align:center ;
+}
+
+#faci  .box #head5{
+    display:block;
+    width:100%;
+    margin: 10px auto;
+    padding-left:10px;
+    font-size:1.5rem;
+    text-align:center ;
+}
+
+#partner::before{
+    content:"";
+    background:url(https://i.postimg.cc/FHmFbH1D/cover-image.jpg) no-repeat center center /cover;
+    position:absolute;
+    top:1600px;
+    left:0;
+    width:100%;
+    height:70vh;
+    z-index:-1;
+    opacity:.9;
+    margin-to:90%;
+}
+#partner #head6{
+    font-size:2rem;
+    color:darkblue;
+    text-align:center ;
+    padding:5px;
+    font-family: 'Lobster', cursive;
+}
+
+#part-name img{
+    width:20vh;
+    height:20vh;
+    margin:6px;
+    padding:5px;
+}
+
+.part{
+    display:flex;
+    height:20vh;
+    width:70vw;
+    margin:15px auto;
+    margin-left:35px;
+}
+
+#part-name2 img{
+    width:20vh;
+    height:20vh;
+    margin:6px;
+    padding:5px 10px;
+}
+
+.part2{
+    display:flex;
+    height:20vh;
+    width:70vw;
+    margin:15px auto;
+    margin-left:35px;
+}
+
+#contact{
+    margin-top:30px;
+}
+
+#head7{
+    text-align:center;
+    font-size:1.6rem;
+    padding:5px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+.cont{
+    margin:5px 29px ;
+}
+
+#detail{
+    font-size:1.3rem;
+}
+ #foot{
+     padding:10px;
+     background-color:black;
+     color:white;
+     text-align:center;
+     padding: 1rem 0;
+ }
+
+#detail:hover{
+    
+}
+
+#detail::before{
+    content:"";
+    background:url(https://i.postimg.cc/qR4KvbbQ/depositphotos-54440289-stock-photo-contact-us-background-pattern-blue.jpg) no-repeat center center / cover;
+    position:absolute;
+    top:2000px;
+    left:0;
+    width:100%;
+    height:50%;
+    z-index:-1;
+    opacity:1;
+}
+
+/* added */
+html, body { 
+    overflow-x: hidden;
+}

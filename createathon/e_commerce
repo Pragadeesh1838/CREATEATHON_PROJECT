@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Dress Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sports Dress Store</h1>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product">
+                <h2>Running Shirt</h2>
+                <p>$20</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" min="1" value="1">
+                <button onclick="addToCart('Running Shirt', 20, parseInt(document.getElementById('quantity1').value))">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h2>Basketball Jersey</h2>
+                <p>$35</p>
+                <label for="quantity2">Quantity:</label>
+                <input type="number" id="quantity2" min="1" value="1">
+                <button onclick="addToCart('Basketball Jersey', 35, parseInt(document.getElementById('quantity2').value))">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h2>Soccer Shorts</h2>
+                <p>$25</p>
+                <label for="quantity3">Quantity:</label>
+                <input type="number" id="quantity3" min="1" value="1">
+                <button onclick="addToCart('Soccer Shorts', 25, parseInt(document.getElementById('quantity3').value))">Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems"></ul>
+            <p>Total: $<span id="totalAmount">0</span></p>
+            <button onclick="checkout()">Checkout</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
